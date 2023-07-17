@@ -1,9 +1,7 @@
-import {View, Text} from 'react-native'
+import Navigation from './Navigation';
  
 export default function App() {
   return(
-    <View className='bg-red-700 h-screen'>
-      <Text className='text-lg text-white'> Hola </Text>
-       </View>
+    <Navigation />
   );
 }
